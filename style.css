@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: #313131;
+}
+
+canvas {
+    box-shadow: -3px 2px 9px 6px black;
+    cursor: pointer;
+
+}
+
+.name {
+    color: white;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.tools .color-field {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 50%;
+    align-self: center;
+    margin: 0 8px;
+    border: 2px solid whitesmoke;
+}
+
+.tools .button {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    background: #222;
+    margin: 0 10px;
+    font-weight: bold;
+}
